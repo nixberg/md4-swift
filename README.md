@@ -1,3 +1,4 @@
-# MD4
+# md4-swift
 
-Pure Swift MD4 implementation. For [cryptopals](https://cryptopals.com). Do not use.
+Swift implementation of the **broken** [MD4 hash function](https://en.wikipedia.org/wiki/MD4).
+Do not use.
