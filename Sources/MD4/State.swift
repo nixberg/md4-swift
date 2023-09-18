@@ -125,7 +125,6 @@ struct State {
 }
 
 extension UInt32 {
-    @inline(__always)
     fileprivate mutating func rotate(left count: Int) {
         self = self << count | self >> (Self.bitWidth - count)
     }
