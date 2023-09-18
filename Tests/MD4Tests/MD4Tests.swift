@@ -3,9 +3,7 @@ import MD4
 import XCTest
 
 final class SHA1Tests: XCTestCase {
-    let testVectors = try! Data(
-        contentsOf: Bundle.module.url(forResource: "md4", withExtension: "blb")!
-    ).blobs().couples()
+    let testVectors = try! PackageResources.md4_blb.blobs().couples()
     
     func test() {
         for (message, expectedOutput) in testVectors {

@@ -1,4 +1,3 @@
-// swift-tools-version:5.7
 // swift-tools-version:5.9
 
 import PackageDescription
@@ -11,7 +10,6 @@ let package = Package(
             targets: ["MD4"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/nixberg/blobby-swift", branch: "main"),
         .package(url: "https://github.com/nixberg/blobby-swift", "0.2.0"..<"0.3.0"),
     ],
     targets: [
@@ -24,7 +22,7 @@ let package = Package(
                 "MD4",
             ],
             resources: [
-                .copy("md4.blb"),
+                .embedInCode("md4.blb"),
             ]),
     ]
 )
