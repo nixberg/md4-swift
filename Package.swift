@@ -12,6 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/nixberg/blobby-swift", branch: "main"),
+        .package(url: "https://github.com/nixberg/blobby-swift", "0.2.0"..<"0.3.0"),
     ],
     targets: [
         .target(
