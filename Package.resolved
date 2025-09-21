@@ -1,5 +1,5 @@
 {
-  "originHash" : "fa4c825889f79cc1e81bcdf9d92ca970145d536717dc261496d2d5b918d6b8b6",
+  "originHash" : "e8e448537594c5d7ea416039e6b6f96085c2e9628744444d37506986832f7e52",
   "pins" : [
     {
       "identity" : "blobby-swift",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/nixberg/crypto-swift.git",
       "state" : {
         "branch" : "main",
-        "revision" : "6b6f3e3292750a696a4bd2e0fddc83cc91937bcc"
+        "revision" : "e3535c7884ef39e27e690e8ce154502890435196"
       }
     },
     {

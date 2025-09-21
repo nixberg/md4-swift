@@ -21,8 +21,7 @@ let package = Package(
         .target(
             name: "MD4",
             dependencies: [
-                .product(name: "CryptoExtras", package: "crypto-swift"),
-                .product(name: "CryptoProtocols", package: "crypto-swift"),
+                .product(name: "CryptoExtras", package: "crypto-swift")
             ],
             swiftSettings: [
                 .enableExperimentalFeature("Lifetimes"),
